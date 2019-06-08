@@ -1,0 +1,39 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body.corpo {
+    background-color: cyan;
+}
+
+h1{
+    margin-top: 10px;
+}
+
+label {
+    margin-bottom: 1px;
+    font-weight: bold;
+}
+
+.botao1{
+    margin-top: 10px;
+}
+
+.botao2{
+    margin-top: 10px;
+}
+
+/* MEDIAS */
+@media (max-width: 575.98px) {
+    .botao1{
+        margin-top: 10px;
+    }
+
+    .botao2{
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+}
